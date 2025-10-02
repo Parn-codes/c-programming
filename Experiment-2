@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int x,y, sum,sub,multi,div;
+    printf("enter the value of x ");
+    scanf("%d",&x);
+    printf("enter the value of y ");  
+    scanf("%d",&y);
+    sum = x+y;
+    sub = x-y;
+    multi = x*y;
+    div= x%y;
+    printf("addition = %d\nsubtraction = %d\nmultiplication = %d\ndivision = %d",sum,sub,multi,div);
+    return 0;
+}    
