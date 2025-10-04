@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int i,num,count=0;
+    printf("enter number : ");
+    scanf("%d",&num);
+    if(num==0)
+        printf("Numbers of digits are :1");
+    else{
+    while(num !=0){
+          num = num/10;
+          count++;
+    }
+    printf("numbers of digits are : %d",count);
+    }
+        return 0;
+}                 
